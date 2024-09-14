@@ -1,0 +1,211 @@
+body{
+    height: 100vh;
+    width:100vw;
+    background-color:#B4DFE5;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.up-pro{
+    font-size: larger;
+}
+.profile-upload {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .plus-symbol {
+    font-size: 2em;
+    color: #888; 
+    text-align: center;
+    line-height: 1;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none; 
+  }
+
+
+.name{
+    display: flex;
+    height:38px;
+    gap:62px;
+   
+}
+.add{
+    margin-top: 8px;
+    display:flex;
+    height:38px;
+    gap:22px;
+}
+.class{
+    display: flex;
+    gap:90px;
+    width:90px;
+    height:38px;
+    margin-top: 8px;
+}
+.school{
+    display: flex;
+    height:38px;
+    gap:8px;
+    margin-top: 8px;
+}
+.con{
+    display: flex;
+    height:38px;
+    gap:10px;
+    margin-top: 8px;;
+}
+.container{
+    display: flex;
+    margin-left: 60;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    margin-left: 250px;
+   
+}
+.int{
+    display: flex;
+    height:38px;
+    gap:20px;
+}
+.specific{
+    display:flex;
+    height:38px;
+    margin-top: 8px;
+    gap:25px;
+
+}
+.projects{
+    display: flex;
+    height:38px;
+    gap:25px;
+    margin-top: 8px;
+
+}
+p{
+    font-size: large;
+    font-weight:300;
+}
+.parent{
+    width:700px;
+    height:80px;
+    background-color: #eedbb0;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    font-size:small;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+.para2{
+    font-size: medium;
+    margin-top: 0%;
+   
+}
+.check{
+    width:20px;
+    height:20px;
+}
+.parents{
+    display: flex;
+    height:38px;
+    gap:69px;
+    margin-top: 0%;
+}
+.info{
+    display: flex;
+    height:38px;
+    gap:19px;
+    margin-top: 2%;
+}
+.parentemail{
+    display: flex;
+    height:38px;
+    gap:4px;
+    margin-top: 2%;
+}
+.submit{
+    margin-left: 200px;
+    width:100px;
+    height:20px;
+    background-color: #303C6C ;
+    color: #fff;
+    margin-top: 0%;
+}
+
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+    background-color:#D2FDFF ;
+    font-family: 'Roboto', sans-serif;
+}
+.signup-container{
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: solid whitesmoke;
+    background-color: white;
+    width:300px;
+    padding:25px;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+text-decoration: underline;
+cursor:pointer;
+}
+.main{
+    margin-bottom: 10px;
+}
+button{
+    background-color: #303C6C;
+    color:white;
+    border-radius: 5px;
+    width:280px;
+    padding:6px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    margin-bottom: 10px;
+    gap:10px;
+}
+
+
+
+

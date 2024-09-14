@@ -1,0 +1,125 @@
+body {
+    font-family: roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#D2FDFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container {
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    
+    border-radius: 10px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+
+.login-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.login-container .remember,
+.login-container .forgot {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.login-container .forgot{
+    float: right;
+    color: red;
+    text-decoration: none;
+}
+
+.login-container .forgot:hover {
+    text-decoration: underline;
+}
+
+.login-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #303C6C ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container .extra {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.login-container .social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-container .social-media a{
+   
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-container .social-media a.facebook  {
+    width:94%;
+    
+
+    background-color: #303C6C;
+}
+
+.login-container .social-media a.google {
+    background-color:rgb(216, 36, 36);
+    width:94%;
+}
+
+.login-container .sign-up {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-container .sign-up a {
+    color: #00448d;
+    text-decoration: none;
+}
+
+.login-container .sign-up a:hover {
+    text-decoration: underline;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}

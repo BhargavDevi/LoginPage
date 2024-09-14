@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="signup-container">
+        <h1 class="main">Create an account</h1>
+
+        <form action="/signin" method="post">
+            <select name="role" id="options">
+                <option value="" disabled selected>What's your role</option>
+                <option value="Student">Student</option>
+                <option value="Councellor">Counsellor</option>
+                <option value="Admin">Admin</option>
+
+            </select>
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="Enter your username">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your email">
+            <label for="tel">Phone</label>
+            <input type="number" name="tel" tel placeholder="Enter your phone number">
+            <label for="password1">password</label>
+            <input type="password" name="password1" placeholder="Enter your password">
+            <label for="password2">Conform password</label>
+            <input type="password" name="password2" placeholder="Re-enter your password">
+
+
+            <button type="submit">Sign Up</button>
+
+        </form>
+        <form class="social-media">
+           
+           
+            <p>Or With</p>
+            <button class="facebook-sigup" padding="10px">Signup with Facebook</button>
+            <button class="google-signup">Signup with Google</button>
+
+            
+
+        </form>
+        <p>Already have an account? <a href="http://localhost:4000/login">Login</a></p>    
+    </div>
+
+</body>
+
+</html>

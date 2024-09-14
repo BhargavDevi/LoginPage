@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+   <body>
+    <form action="/updateProfile" method="POST" enctype="multipart/form-data">
+<div class="container">
+    <div class="pro">
+    <p class="up-pro">Upload your profile photo</p>
+    <div class="profile-upload">
+        <label for="profile-pic-input">
+          <div class="circle">
+            <span class="plus-symbol">+</span>
+          </div>
+        </label>
+        <input type="file" id="profile-pic-input" name="profilePic" accept="image/*" style="display:none;">
+      </div>
+   <div class="profile"></div>
+   
+   
+   <u><h2>Personal Details</h2></u>
+   <div class="name">
+    <p>Full Name</p>
+    <input type="text" name="username">
+</div>
+<div class="add">
+    <p>Email Address</p>
+    <input type="text" name="email">
+</div>
+<div class="user">
+    <p>Username</p>
+    <input type="text" name="username" >
+</div>
+<div class="con">
+    <p>Phone Number</p>
+    <input type="text" name="tel" >
+</div>
+  </div>
+</div>
+<div class="extra">
+<!-- Role/position -->
+<div class="secrole">
+    <p>Role/Position</p>
+    <select name="role">
+        <option value="" disabled selected>Select your role</option>
+        <option value="System administrator" >System Administrator</option>
+        <option value="Site manager" >Site Manager</option>
+    </select>
+</div>
+
+<!-- Access Level -->
+<div class="response">
+    <p>Access Level</p>
+    <select name="accessLevel">
+        <option value="" disabled selected>Enter the access level</option>
+        <option value="Full access" >Full Access</option>
+        <option value="Manage content" >Manage Content</option>
+        <option value="Manage users" >Manage Users</option>
+    </select>
+</div>
+
+<!-- Responsibility -->
+<div class="responsibility">
+    <p>Responsibili
+    <select name="responsibility">
+        <option value="" disabled selected>Select your responsibility</option>
+        <option value="user management" >User Management</option>
+        <option value="content moderation" >Content Moderation</option>
+    </select>
+</div>
+
+</div>
+<div class="bio">
+    <h3>Short Bio</h3>
+    <input type="text" class="bioinfo" name="bio" placeholder="write a description here" >
+</div>
+<p class="condition">Terms and condition</p>
+
+<div class="term">
+    
+    <p>Admins must manage user accounts responsibly, including approvals, suspensions, and
+     Admins must maintain the confidentiality of all user data and platform inf
+     Admins must adhere to all platform policies and guidelines, with violations result
+<p class="agree">By clicking the checkbox, I confirm my agreement to the terms outlined above. <input type="checkbox" class="check"> </p>
+<button class="sub">Submit</button>
+</div>
+
+
+</form>
+
+    </div>
+  
+  
+  
+
+ 
+
+</body>
+</html>
+
+   

@@ -1,0 +1,165 @@
+body{
+    height: 100vh;
+    width:100vw;
+    background-color:#c4e5b4;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.up-pro{
+    font-size: larger;
+}
+.profile-upload {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .plus-symbol {
+    font-size: 2em;
+    color: #888; 
+    text-align: center;
+    line-height: 1;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none; 
+  }
+
+
+.name{
+    display: flex;
+    height:38px;
+    gap:46px;
+   
+}
+.addras{
+    margin-top: 8px;
+    display:flex;
+    height:38px;
+    gap:13px;
+}
+.username{
+    margin-top: 8px;
+    display:flex;
+    height:38px;
+    gap:40px;
+}
+.password{
+    margin-top: 8px;
+    display:flex;
+    height:38px;
+    gap:42px; 
+}
+.classing{
+    display: flex;
+    gap:72px;
+    width:90px;
+    height:38px;
+    margin-top: 8px;
+}
+.grade{
+    display: flex;
+    height:38px;
+    gap:20px;
+    margin-top: 8px;
+}
+.contact{
+    display: flex;
+    height:38px;
+    gap:12px;
+    margin-top: 8px;;
+}
+.container{
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.plusex{
+    display: flex;
+    margin-left: 250px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.role{
+    display: flex;
+    height:38px;
+    gap:80px;
+    margin-top: 8px;
+    width:180px;
+}
+
+.area{
+    display: flex;
+    height:38px;
+    gap:110px;
+    margin-top: 8px;
+    width:250px;
+}
+
+
+
+
+
+.submit{
+    margin-left: 200px;
+    width:100px;
+    height:20px;
+    background-color: #303C6C ;
+    color: #fff;
+    margin-top: 0%;
+}
+.method{
+    display: flex;
+    height:38px;
+    gap:7px;
+    margin-top: 5px;
+}
+.bio{
+    width:480px;
+    height:100px;
+    text-align: center;
+}
+.terms{
+    width:480px;
+    height:150px;
+    background-color: #eedbb0;
+    text-align: center;
+    font-size:15px;
+   
+}
+.conditions{
+   font-size: 20px;
+   margin-top: 20%;
+}
+.check{
+    width:18px;
+    height:18px;
+}
+.policies{
+    font-size: 15px;
+}
+
+.submee{
+    margin-left: 200px;
+    width:100px;
+    height:24px;
+    background-color: #303C6C ;
+    color: #fff;
+    margin-top: 0%;
+}

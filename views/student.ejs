@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>student</title>
+  <link rel="stylesheet" href="student.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form action="/student" method="post">
+    <div class="container">
+      <div class="pro">
+        <p class="up-pro">Upload your profile photo</p>
+        <div class="profile-upload">
+          <label for="profile-pic-input">
+            <div class="circle">
+              <span class="plus-symbol">+</span>
+            </div>
+          </label>
+          <input type="file" id="profile-pic-input" accept="image/*" style="display:none;">
+        </div>
+        <div class="profile"></div>
+
+
+        <u>
+          <h2>Personal Details</h2>
+        </u>
+        <div class="name">
+          <p>FullName</p>
+          <input type="" placeholder="Enter your name">
+        </div>
+        <div class="classing">
+          <p>Grade</p>
+          <select name="" id="">
+            <option value="" disabled selected>select your guiding grade </option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+          </select>
+        </div>
+
+
+        <div class="addras">
+          <p>Email Address</p>
+          <input type="" placeholder="Enter the email">
+        </div>
+        <div class="contact">
+          <p>Phone number</p>
+          <input type="text" placeholder="Enter your phone number">
+        </div>
+        <div class="username">
+          <p>Username</p>
+          <input type="" placeholder="Enter the username">
+        </div>
+        <div class="password">
+          <p>Password</p>
+          <input type="" placeholder="Enter the password">
+        </div>
+
+      </div>
+      <div class="plusex">
+        <div class="role">
+          <p>Role/position</p>
+          <select name="" id="">
+            <option value="" disabled selected>Select your role </option>
+            <option value="">Counsellor</option>
+            <option value="">Advisor</option>
+            <option value="">Poject mentor</option>
+
+          </select>
+        </div>
+        <div class="area">
+          <p>Areas of expertise</p>
+          <select name="" id="">
+            <option value="" disabled selected> Enter your expertise area </option>
+            <option value="">Science</option>
+            <option value="">Technology</option>
+            <option value="">Arts</option>
+
+          </select>
+        </div>
+        <div class="method">
+          <p>Communication method</p>
+          <select name="" id="">
+            <option value="" disabled selected>Select your reachability</option>
+            <option value="">Email</option>
+            <option value="">Phone</option>
+
+
+          </select>
+        </div>
+        <div class="short">
+          <h3>Short Bio</h3>
+          <input type="text" class="bio" placeholder="write a description here">
+        </div>
+        <p class="conditions">Terms and condition</p>
+
+        <div class="terms">
+
+          <p>The mentor commits to providing guidance and dedicating a minimum of [X hours] per week/month.
+            All discussions and shared information between mentor and mentee are strictly confidential.
+            The mentor should provide honest, constructive feedback and support the mentee's career goals.
+            Both parties agree to respect each other’s time and maintain a professional relationship.</p>
+        </div>
+        <p class="policies">By clicking the checkbox, I confirm my agreement to the terms outlined above. <input
+            type="checkbox" class="check"> </p>
+        <button class="submee">Submit</button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>

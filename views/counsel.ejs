@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counciller</title>
+    <link rel="stylesheet" href="counciller.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="/counsellor" method="post">
+        <div class="container">
+            <div class="pro">
+                <p class="up-pro">Upload your profile photo</p>
+                <div class="profile-upload">
+                    <label for="profile-pic-input">
+                        <div class="circle">
+                            <span class="plus-symbol">+</span>
+                        </div>
+                    </label>
+                    <input type="file" id="profile-pic-input" accept="image/*" style="display:none;">
+                </div>
+                <div class="profile"></div>
+
+
+                <u>
+                    <h2>Personal Details</h2>
+                </u>
+                <div class="name">
+                    <p>FullName</p>
+                    <input type="" placeholder="Enter your name">
+                </div>
+                <div class="class">
+                    <p>Grade</p>
+                    <select name="" id="">
+                        <option value="" disabled selected>select your grade </option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                </div>
+                <div class="school">
+                    <p>Institution name</p>
+                    <input type="text" placeholder="Enter your institute name ">
+                </div>
+                <div class="add">
+                    <p>Email Address</p>
+                    <input type="" placeholder="Enter the email">
+                </div>
+                <div class="con">
+                    <p>Contact number</p>
+                    <input type="text" placeholder="Enter your contact number">
+                </div>
+            </div>
+
+
+            <div class="skills">
+                <u>
+                    <h2>Interests and skills</h2>
+                </u>
+                <div class="int">
+                    <p>Interest categories</p>
+                    <select name="" id="">
+                        <option value="" disabled selected>Select your interest field</option>
+                        <option value="">Technology</option>
+                        <option value="">Visual arts</option>
+                        <option value="">music</option>
+                    </select>
+                </div>
+
+                <div class="specific">
+                    <p>Areas of expertise</p>
+                    <select name="" id="">
+                        <option value="" disabled selected>Select your skills</option>
+                        <option value="">Programming</option>
+                        <option value="">Graphic design</option>
+                        <option value="">Instrumental music</option>
+                    </select>
+
+                </div>
+                <div class="projects">
+                    <p>Project preference</p>
+                    <input type="text" placeholder="Enter your dream project ">
+                </div>
+
+                <u>
+                    <h2>Experience and achievements</h2>
+                </u>
+                <p>Previous Projects or Work Samples</p>
+                <input type="file" id="certificates" name="certificates" accept=".pdf,.doc,.docx,links">
+                <button type="submit">Upload</button>
+                <p>Upload Certificates</p>
+                <input type="file" id="certificates" name="certificates" accept=".pdf,.doc,.docx,links">
+                <button type="submit">Upload</button>
+                <u>
+                    <h2>Parental consent form</h2>
+                </u>
+                <div class="parents">
+                    <p>Parent name</p>
+                    <input type="" placeholder="Enter the parent name">
+                </div>
+                <div class="info">
+                    <p> Parent contact info</p>
+                    <input type="" placeholder="Enter the number">
+                </div>
+                <div class="parentemail">
+                    <p>Parent email address</p>
+                    <input type="" placeholder="Enter the email">
+                </div>
+                <div class="parent">
+                    <p class="para">"I, the undersigned, consent to my child's participation in online career counseling
+                        and the collection of related information.""I understand that my child's personal and
+                        educational information will be used solely for counseling purposes.""I agree to the storage and
+                        use of this information in accordance with privacy policies and relevant regulations."</p>
+                </div>
+                <p class="para2">"By clicking the checkbox, I confirm my agreement to the terms outlined above." <input
+                        type="checkbox" class="check"> </p>
+                <button class="submit">Submit</button>
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
